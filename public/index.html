@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poll Widget</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Poll</h1>
+
+    <div id="poll-options">
+      <input type="radio" name="poll-option" value="Option 1" /> Option 1
+      <input type="radio" name="poll-option" value="Option 2" /> Option 2
+      <input type="radio" name="poll-option" value="Option 3" /> Option 3
+    </div>
+
+    <button id="vote-button">Vote</button>
+
+    <div id="poll-results">
+      <h2>Results</h2>
+      <ul id="poll-results-list"></ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#poll-options {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+#poll-options input {
+  margin-right: 1rem;
+}
+
+#vote-button {
+  background-color: blue;
+  color: white;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+#poll-results {
+  margin-top: 1rem;
+}
+
+#poll-results ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#poll-results li {
+  margin-bottom: 1rem;
+}
